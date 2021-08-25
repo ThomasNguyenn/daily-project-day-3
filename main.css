@@ -1,0 +1,162 @@
+/*=====================================FONT==============================================*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Merriweather:wght@400;700;900&display=swap');
+
+/*=====================================VARIBLE==============================================*/
+:root{
+    --ibm: 'IBM Plex Sans', sans-serif;
+    --merr: 'Merriweather', serif;
+}
+
+
+
+/*======================================CSS-BASE==========================================*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 1200px;
+    color: white;
+}
+main{
+    display: flex;
+}
+.webinar_content{
+    width: 60%;
+    height: 1200px;
+    background-color: #23252F;
+}
+.webinar_info{
+    width: 555px;
+    height: 300px;
+    padding: 44px;
+    display: block;
+    margin: 0 auto;
+}
+.webinar_register{
+    display: block;
+    width: 547px;
+    margin: 0 auto;
+    padding: 44px;
+    height: 722px;
+}
+.webinar_member{
+    width: 40%;
+    height: 1200px;
+    background-color: #2B2D38;
+}
+/*==============================================--WEBINAR_INFO--================================================*/
+.webinar_info--date{
+    font-size: 16px;
+    width: 161px;
+    height: 21px;
+    font-family: var(--ibm);
+    padding-bottom: 13px;
+}
+.webinar_info--title{
+    font-size: 32px;
+    font-family: var(--merr);
+    font-weight: bold;
+    width: 543px;
+    height: 84px;
+    line-height: 42px;
+    padding-bottom: 100px;
+}
+.webinar_info--desr{
+    font-size: 18px;
+    font-family: var(--ibm);
+    width: 553px;
+}
+
+
+.webinar_register--title{
+    font-size: 26px;
+    font-family: var(--merr);
+    font-weight: bold;
+    line-height: 42px;
+    padding-bottom: 15px;
+}
+.span-title{
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 7px;
+}
+.webinar_register--form{
+    font-size: 16px;
+    font-family: var(--ibm);
+    line-height: 26px;
+}
+.form-grid{
+    display: grid;
+    grid-template-columns: 261px 261px;
+    row-gap: 51px;
+    column-gap: 25px;
+    padding-bottom: 25px;
+}
+.input_thinking--title{
+    font-size: 16px;
+    font-family: var(--ibm);
+    line-height: 26px;
+    padding-bottom: 7px;
+}
+.input_thinking--form{
+    width: 547px;
+    background-color: #23252F;
+    border: 1px solid #464856;
+    resize: none;
+    color: white;
+}
+.input_thinking--form::placeholder{
+    color: #FFFFFF;
+    opacity: 0.5;
+    padding: 10px 0px 0px 10px;
+}
+.form-grid label{
+    display: flex;
+    flex-direction: column;
+}
+.webinar_register--form .input, .webinar_register--form select{
+    width: 261px;
+    height: 60px;
+    background-color:#23252F;
+    border: 1px solid #474A59;
+}
+.agree_checkbox{
+    width: 405px;
+    height: 50px;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.checkbox-tick{
+    width: 24px;
+    height: 24px;
+    border: 1px solid #474A59;
+    background-color: white;
+}
+.submit{
+    width: 289px;
+    height: 74px;
+    background-color:#FFFFFF;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+}
+.webinar_register--form .input::placeholder{
+    font-size: 16px;
+    font-family: var(--ibm);
+    line-height: 26px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    padding-left: 10px;
+}
+.webinar_register--form select{
+    font-size: 16px;
+    font-family: var(--ibm);
+    line-height: 26px;
+    color: #FFFFFF;
+}
