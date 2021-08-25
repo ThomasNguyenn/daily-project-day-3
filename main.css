@@ -95,6 +95,17 @@ main{
     column-gap: 25px;
     padding-bottom: 25px;
 }
+
+.form-grid label{
+    display: flex;
+    flex-direction: column;
+}
+.webinar_register--form .input, .webinar_register--form select{
+    width: 261px;
+    height: 60px;
+    background-color:#23252F;
+    border: 1px solid #474A59;
+}
 .input_thinking--title{
     font-size: 16px;
     font-family: var(--ibm);
@@ -112,16 +123,7 @@ main{
     color: #FFFFFF;
     opacity: 0.5;
     padding: 10px 0px 0px 10px;
-}
-.form-grid label{
-    display: flex;
-    flex-direction: column;
-}
-.webinar_register--form .input, .webinar_register--form select{
-    width: 261px;
-    height: 60px;
-    background-color:#23252F;
-    border: 1px solid #474A59;
+    font-family: var(--ibm);
 }
 .agree_checkbox{
     width: 405px;
@@ -160,3 +162,96 @@ main{
     line-height: 26px;
     color: #FFFFFF;
 }
+
+
+
+
+.share_btn{
+    width: 112px;
+    height: 60px;
+    position: relative;
+    top: 160px;
+    left: 100px;
+}
+.share_btn--title{
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-family: var(--ibm);
+    line-height: 20.8px;
+}
+.share_btn--icon img{
+    width: 24px;
+    height: 24px;
+}
+.member_info{
+    width: 218px;
+    height: 444px;
+    position: relative;
+    left: 100px;
+    top: 350px;
+}
+.member_info--title{
+    padding-bottom: 18px;
+    font-family: var(--merr);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 22.5%;
+}
+.member_list{
+    width: 218px;
+    height: 239px;
+
+}
+.member_items{
+    display: flex;
+    padding-bottom: 25px;
+}
+.member_items img{
+    padding-right: 10px;
+    height: 63px;
+
+}
+.member_items--info{
+    width: 145px;
+    height: 54px;
+    display: flex;
+    flex-direction: column;
+}
+.member_items--name{
+    font-size: 18px;
+    font-family: var(--ibm);
+    line-height: 28px;
+}
+.member_items--work{
+    font-size: 14px;
+    font-family: var(--ibm);
+    line-height: 28px;
+}
+.member_host{
+    width: 167px;
+    height: 109px;
+    position: relative;
+    top: 50px;
+}
+.member_host--title{
+    padding-bottom: 18px;
+    font-family: var(--merr);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 22.5%;
+}
+.member_host--info{
+    display: flex;
+    width: 167px;
+    height: 63px;
+}
+.member_host--info img{
+    padding-right: 10px;
+    height: 63px;
+    object-fit: cover;
+}
+
+
+
